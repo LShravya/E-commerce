@@ -1,0 +1,36 @@
+.home-container {
+    background-color: rgb(33, 155, 169); /* Fallback background color */
+    color: white; 
+    height: 100vh; /* Full screen */
+    display: flex; /* Centering content with Flexbox */
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    text-align: center; /* Center align text */
+    position: relative; /* For layering */
+}
+
+/* Home Content Box */
+.home-content {
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent white */
+    padding: 30px; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    text-align: center; /* Ensure the content is centered */
+}
+
+/* Heading */
+.home-heading {
+    color:black;
+    font-size: 36px; /* Font size for the heading */
+    font-weight: bold; /* Bold heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Text below the heading */
+.home-text {
+    color:black;
+    font-size: 20px; /* Font size for the paragraph */
+    line-height: 1.5; /* Line height for better readability */
+    margin-top: 10px; /* Space above the text */
+}
+

@@ -1,0 +1,56 @@
+.navbar {
+  background-color: #d4f0f3; /* your original light pastel */
+  color: #215b5f; /* dark teal text */
+  
+backdrop-filter: blur(10px);
+
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px; /* Reduces spacing between buttons */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black; /* Ensures button text is visible */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #eae4e6; /* Slightly darker pink on hover */
+}
+/* Voice Assistant Button styles */
+/* Navbar.css */
+
+/* Voice Assistant Button styles */
+/* Navbar.css */
+
+/* Voice Assistant Button styles */
+/* Navbar.css */
+
+/* Voice Assistant Button styles */
+.voice-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px; /* Add some space between the voice button and other links */
+  font-size: 16px;
+}
+
+.voice-button:hover {
+  background-color: #0056b3;
+}
+
+

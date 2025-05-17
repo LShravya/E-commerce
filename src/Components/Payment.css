@@ -1,0 +1,84 @@
+/* Payment Page Styles */
+.payment-page {
+  background-size: cover; /* Ensures the background image covers the whole screen */
+  background-position: center; /* Centers the background image */
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  display: flex; /* Flexbox for centering content */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  position: relative; /* Allow content inside to be positioned */
+}
+
+/* Transparent Payment Container */
+.payment-container {
+  width: 50%; /* Width of the payment container */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Payment Box - Adjusted to align text to the left */
+.payment-box {
+  text-align: left; /* Align text to the left in payment box */
+  color: #333; /* Text color for better readability */
+}
+
+/* Payment Heading */
+.payment-heading {
+  text-align: center; /* Center-align the heading */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Payment Option Labels and Inputs */
+.payment-options label {
+  display: block; /* Make labels block-level elements */
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-left: 10px; /* Slight left margin for better alignment */
+}
+
+/* Checkout Button */
+.checkout-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Button Container */
+.payment-button-container {
+  text-align: center; /* Center-align the button */
+}
+
+/* Thank You Section */
+.thank-you {
+  margin-top: 20px;
+}
+
+.thank-you h2 {
+  color: #28a745; /* Green color for 'Thank You' text */
+}
+
+/* Track Order Button */
+.thank-you button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.thank-you button:hover {
+  background-color: #0056b3;
+}

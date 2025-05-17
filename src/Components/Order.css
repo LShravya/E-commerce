@@ -1,0 +1,80 @@
+.orders-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orders-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.orders-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if space is limited */
+  justify-content: space-between; /* Distribute items with space in between */
+  gap: 20px; /* Add space between items */
+}
+
+.order-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px; /* Set a fixed width for the order items */
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.order-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column; /* Stack the order details vertically */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.order-date,
+.order-price {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px; /* Add space between each piece of information */
+}
+
+.reorder-btn {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.reorder-btn:hover {
+  background-color: #218838;
+}
+
+.reorder-btn:active {
+  background-color: #1e7e34;
+}
